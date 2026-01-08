@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* PAGE */
+/* BODY */
 body {
   font-family: Helvetica, Arial, sans-serif;
   background: #fdfdf9;
@@ -32,7 +32,7 @@ body {
 .cover {
   position: fixed;
   inset: 0;
-  padding: 40px;                 /* EQUAL margin all around */
+  padding: 40px;                 /* equal margin all around */
   background: #fdfdf9;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@ body {
 .hero {
   width: 100%;
   height: 100%;
-  overflow: hidden;              /* enables cropping */
+  overflow: hidden;              /* allows cropping */
 }
 
 /* HERO IMAGE (CROPPED CLEANLY) */
@@ -52,4 +52,23 @@ body {
   height: 100%;
   object-fit: cover;             /* crop if needed */
   display: block;
+}
+
+/* RESPONSIVE ADJUSTMENTS */
+@media (max-width: 1600px) {
+  .cover {
+    padding: 30px;               /* reduce margin on smaller screens */
+  }
+}
+
+@media (max-width: 1200px) {
+  .cover {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .cover {
+    padding: 15px;
+  }
 }
