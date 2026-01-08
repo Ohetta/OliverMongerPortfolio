@@ -19,6 +19,7 @@ body {
   display: flex;
   gap: 20px;
   font-size: 12px;
+  z-index: 10; /* keep nav above image */
 }
 
 .nav a {
@@ -30,21 +31,22 @@ body {
 .cover {
   min-height: 100vh;           /* full viewport height */
   display: flex;
-  justify-content: center;     /* center horizontally */
-  align-items: center;         /* center vertically */
-  background: #fff;            /* white background for border effect */
-  padding: 0;                  /* remove old padding */
+  justify-content: center;     /* horizontal center */
+  align-items: center;         /* vertical center */
+  background: #f5f5f2;         /* page background */
+  padding: 40px 0;             /* top & bottom margin for hero image */
 }
 
 /* HERO IMAGE */
 .hero {
-  width: 90%;                  /* image size relative to viewport */
+  width: 80%;                  /* image takes 80% of viewport width */
   max-width: 1200px;           /* optional max width */
-  box-shadow: 0 0 0 20px #fff; /* white border effect */
+  box-shadow: 0 0 0 20px #fff; /* white border around image */
 }
 
 .hero img {
   width: 100%;
   height: auto;                /* maintain aspect ratio */
   display: block;
+  border-radius: 4px;          /* optional slight rounding */
 }
