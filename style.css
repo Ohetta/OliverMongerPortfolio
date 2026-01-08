@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #f5f5f2;
+  background: #fafafa; /* lighter off-white background */
   font-family: Helvetica, Arial, sans-serif;
   color: #111;
 }
@@ -33,20 +33,20 @@ body {
   display: flex;
   justify-content: center;     /* horizontal center */
   align-items: center;         /* vertical center */
-  background: #f5f5f2;         /* page background */
-  padding: 40px 0;             /* top & bottom margin for hero image */
+  background: #fafafa;         /* lighter off-white page background */
+  padding: 40px 0;             /* top & bottom margin */
 }
 
 /* HERO IMAGE */
 .hero {
-  width: 80%;                  /* image takes 80% of viewport width */
-  max-width: 1200px;           /* optional max width */
-  box-shadow: 0 0 0 20px #fff; /* white border around image */
+  width: 90%;                  /* fills most of the page width */
+  max-width: 1400px;           /* optional max width */
 }
 
 .hero img {
   width: 100%;
-  height: auto;                /* maintain aspect ratio */
+  height: auto;                /* keep aspect ratio */
   display: block;
-  border-radius: 4px;          /* optional slight rounding */
+  border-radius: 0;            /* no border */
+  object-fit: contain;         /* ensures image scales correctly */
 }
