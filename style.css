@@ -8,13 +8,11 @@
 /* PAGE */
 body {
   font-family: Helvetica, Arial, sans-serif;
-  background: #fdfdf9;      /* light off-white */
-  overflow: hidden;         /* NO scrolling */
-  height: 100vh;
-  width: 100vw;
+  background: #fdfdf9;
+  overflow: hidden;        /* no scrolling */
 }
 
-/* NAVIGATION */
+/* NAV */
 .nav {
   position: fixed;
   top: 20px;
@@ -30,35 +28,23 @@ body {
   color: #111;
 }
 
+/* FULL-SCREEN HERO */
 .cover {
-  width: 100vw;
-
-  /* viewport height minus nav height */
-  min-height: calc(100vh - 40px);
-
-  margin-top: 40px;          /* space for nav */
-
-  padding: 40px;             /* margin around image */
-
+  position: fixed;
+  inset: 0;                /* fills entire viewport */
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding: 40px;           /* margin around image */
   background: #fdfdf9;
 }
 
-
 /* HERO IMAGE */
-.hero {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .hero img {
   max-width: 100%;
   max-height: 100%;
   width: auto;
   height: auto;
   display: block;
-  object-fit: contain;      /* keeps full image visible */
+  object-fit: contain;
 }
