@@ -27,24 +27,30 @@ body {
   color: #111;
 }
 
-/* COVER / HERO LAYOUT FOR DESKTOP */
+/* HERO CONTAINER */
 .cover {
-  height: 100vh;              /* full viewport height */
+  min-height: 100vh;                 /* full viewport height */
   display: flex;
-  justify-content: center;     /* center horizontally */
-  align-items: center;         /* center vertically */
-  background: #fdfdf9;         /* lighter off-white */
+  justify-content: center;           /* horizontal center */
+  align-items: center;               /* vertical center */
+  padding: 60px 0;                   /* top & bottom margin */
+  background: #fdfdf9;
 }
 
-/* HERO IMAGE */
+/* HERO IMAGE SECTION */
 .hero {
-  width: 80%;                 /* image takes 80% of viewport width */
-  max-width: 1400px;          /* optional max width */
+  flex: 1 1 auto;                     /* allow it to scale fluidly */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: calc(100vh - 120px);    /* ensures top/bottom margins */
 }
 
 .hero img {
   width: 100%;
-  height: 100vh;              /* fills viewport height */
-  object-fit: cover;          /* crops image to fill area while keeping ratio */
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;                 /* keeps aspect ratio */
   display: block;
 }
