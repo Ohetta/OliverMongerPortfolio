@@ -31,13 +31,19 @@ body {
 }
 
 .cover {
-  height: calc(100vh - 40px);   /* subtract nav height */
   width: 100vw;
+
+  /* viewport height minus nav height */
+  min-height: calc(100vh - 40px);
+
+  margin-top: 40px;          /* space for nav */
+
+  padding: 40px;             /* margin around image */
+
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  margin-top: 40px;             /* push content below nav */
+
   background: #fdfdf9;
 }
 
