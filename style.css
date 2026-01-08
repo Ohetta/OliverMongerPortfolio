@@ -30,16 +30,17 @@ body {
   color: #111;
 }
 
-/* HERO CONTAINER */
 .cover {
-  height: 100vh;
+  height: calc(100vh - 40px);   /* subtract nav height */
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;            /* margin around image */
+  padding: 40px;
+  margin-top: 40px;             /* push content below nav */
   background: #fdfdf9;
 }
+
 
 /* HERO IMAGE */
 .hero {
