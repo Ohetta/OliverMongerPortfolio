@@ -1,80 +1,51 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* COVER LAYOUT */
 
-body {
-  background: #f5f5f2;
-  color: #111;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.nav {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  display: flex;
-  gap: 20px;
-  font-size: 12px;
-}
-
-.nav a {
-  text-decoration: none;
-  color: #111;
-}
-
-.spread {
-  padding: 120px 60px;
+.cover {
   position: relative;
+  padding: 140px 80px;
+  min-height: 200vh; /* important: creates breathing room */
 }
 
-/* IMAGE TYPES */
-
-.image {
+/* BASE BLOCK */
+.block {
   position: relative;
-  margin-bottom: 120px;
+  margin-bottom: 180px;
 }
 
-.image img {
+.block img {
   width: 100%;
   display: block;
 }
 
-.image.full {
-  width: 100%;
+/* HERO IMAGE */
+.hero {
+  width: 42%;
+  margin-left: 6%;
 }
 
-.image.small {
-  width: 35%;
+/* SECONDARY IMAGE */
+.secondary {
+  width: 28%;
+  margin-left: 58%;
+  margin-top: -220px; /* creates overlap without touching */
 }
 
-.image.medium {
-  width: 55%;
+/* DETAIL IMAGE */
+.detail {
+  width: 20%;
+  margin-left: 22%;
+  margin-top: -80px;
 }
 
-/* POSITIONING */
-.left {
-  margin-left: 0;
-}
-
-.right {
-  margin-left: auto;
-}
-
-.caption {
-  font-size: 11px;
-  margin-top: 6px;
-  color: #666;
-  max-width: 200px;
-}
-
-/* TEXT FRAGMENTS */
-.text.fragment {
-  font-size: 14px;
+/* FLOATING TEXT */
+.text-note {
+  width: 180px;
+  font-size: 13px;
   line-height: 1.4;
-  max-width: 200px;
-  margin-left: 60%;
-  margin-bottom: 200px;
+  margin-left: 62%;
+  margin-top: 120px;
 }
 
+.text-note p {
+  margin-bottom: 6px;
+}
