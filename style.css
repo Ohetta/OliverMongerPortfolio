@@ -32,7 +32,7 @@ body {
 .cover {
   position: fixed;
   inset: 0;
-  padding: 20px;                 /* equal margin all around */
+  padding: 10px;                 /* equal margin all around */
   background: #fdfdf9;
   display: flex;
   justify-content: center;
