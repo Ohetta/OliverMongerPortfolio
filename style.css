@@ -6,8 +6,8 @@
 }
 
 body {
-  background: #fafafa; /* lighter off-white background */
   font-family: Helvetica, Arial, sans-serif;
+  background: #fdfdf9; /* light off-white */
   color: #111;
 }
 
@@ -19,7 +19,7 @@ body {
   display: flex;
   gap: 20px;
   font-size: 12px;
-  z-index: 10; /* keep nav above image */
+  z-index: 10;
 }
 
 .nav a {
@@ -27,26 +27,24 @@ body {
   color: #111;
 }
 
-/* COVER CONTAINER */
+/* COVER / HERO LAYOUT FOR DESKTOP */
 .cover {
-  min-height: 100vh;           /* full viewport height */
+  height: 100vh;              /* full viewport height */
   display: flex;
-  justify-content: center;     /* horizontal center */
-  align-items: center;         /* vertical center */
-  background: #fafafa;         /* lighter off-white page background */
-  padding: 40px 0;             /* top & bottom margin */
+  justify-content: center;     /* center horizontally */
+  align-items: center;         /* center vertically */
+  background: #fdfdf9;         /* lighter off-white */
 }
 
 /* HERO IMAGE */
 .hero {
-  width: 90%;                  /* fills most of the page width */
-  max-width: 1400px;           /* optional max width */
+  width: 80%;                 /* image takes 80% of viewport width */
+  max-width: 1400px;          /* optional max width */
 }
 
 .hero img {
   width: 100%;
-  height: auto;                /* keep aspect ratio */
+  height: 100vh;              /* fills viewport height */
+  object-fit: cover;          /* crops image to fill area while keeping ratio */
   display: block;
-  border-radius: 0;            /* no border */
-  object-fit: contain;         /* ensures image scales correctly */
 }
