@@ -7,10 +7,8 @@
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  background: #fdfdf9; /* light off-white */
-  overflow: hidden;     /* prevent scrolling */
-  height: 100vh;
-  width: 100vw;
+  background: #fdfdf9; /* light off-white background */
+  color: #111;
 }
 
 /* NAVIGATION */
@@ -31,21 +29,27 @@ body {
 
 /* HERO CONTAINER */
 .cover {
-  height: 100vh;                 /* full viewport height */
-  width: 100vw;                  /* full viewport width */
+  min-height: 100vh;           /* full viewport height */
   display: flex;
-  justify-content: center;       /* horizontal center */
-  align-items: center;           /* vertical center */
-  background: #fdfdf9;
-  padding: 40px;                 /* margin around the image */
+  justify-content: center;     /* center horizontally */
+  align-items: center;         /* center vertically */
+  background: #fdfdf9;         /* page background */
+  padding: 60px 0;             /* top & bottom margin */
 }
 
 /* HERO IMAGE */
 .hero {
-  max-width: calc(100% - 80px);   /* subtract padding for left/right margin */
-  max-height: calc(100% - 80px);  /* subtract padding for top/bottom margin */
-  width: auto;
-  height: auto;
-  object-fit: contain;             /* maintain aspect ratio */
+  width: 80%;                  /* image width relative to viewport */
+  max-width: 1400px;           /* prevent it from stretching too wide */
+  max-height: calc(100vh - 120px); /* leave 60px top + 60px bottom margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;         /* keeps aspect ratio, fits inside container */
   display: block;
 }
