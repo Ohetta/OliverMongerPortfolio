@@ -39,12 +39,13 @@ body {
   background: #fdfdf9;
 }
 
-.hero img {
-  max-width: calc(100vmin - 80px);
-  max-height: calc(100vmin - 80px);
-  width: auto;
-  height: auto;
-  display: block;
-  object-fit: contain;
+.hero-frame {
+  padding: 40px;
+  background: #fdfdf9;
 }
 
+.hero-frame img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
