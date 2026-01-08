@@ -28,25 +28,23 @@ body {
   color: #111;
 }
 
-/* HERO CONTAINER */
+/* COVER CONTAINER */
 .cover {
   height: 100vh;               /* full viewport height */
+  width: 100vw;                /* full viewport width */
   display: flex;
   justify-content: center;     /* horizontal center */
   align-items: center;         /* vertical center */
+  padding: 40px;               /* margin around image */
   background: #fdfdf9;
-  padding: 40px;               /* margin around the image */
 }
 
 /* HERO IMAGE */
 .hero {
-  max-width: 100%;             /* never wider than container */
-  max-height: 100%;            /* never taller than container */
-}
-
-.hero img {
+  max-width: calc(100% - 80px);   /* account for left/right padding */
+  max-height: calc(100% - 80px);  /* account for top/bottom padding */
+  width: auto;
+  height: auto;
+  object-fit: contain;             /* maintain aspect ratio */
   display: block;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;          /* fits inside container without stretching */
 }
