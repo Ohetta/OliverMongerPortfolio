@@ -9,7 +9,7 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   background: #fdfdf9;
-  overflow: hidden;        /* no scrolling */
+  overflow: hidden; /* no scrolling */
 }
 
 /* NAV */
@@ -28,24 +28,28 @@ body {
   color: #111;
 }
 
-/* FULL-SCREEN HERO */
+/* HERO LAYOUT */
 .cover {
   position: fixed;
-  inset: 0;                /* fills entire viewport */
+  inset: 0;
+  padding: 40px;                 /* EQUAL margin all around */
+  background: #fdfdf9;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;           /* margin around image */
-  background: #fdfdf9;
 }
 
-.hero-frame {
-  padding: 40px;
-  background: #fdfdf9;
+/* HERO FRAME */
+.hero {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;              /* enables cropping */
 }
 
-.hero-frame img {
-  max-width: 100%;
-  max-height: 100%;
+/* HERO IMAGE (CROPPED CLEANLY) */
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;             /* crop if needed */
   display: block;
 }
