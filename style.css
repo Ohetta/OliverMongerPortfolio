@@ -40,10 +40,11 @@ body {
 }
 
 .hero img {
-  max-width: calc(100vw - 80px);
-  max-height: calc(100vh - 80px);
+  max-width: calc(100vmin - 80px);
+  max-height: calc(100vmin - 80px);
   width: auto;
   height: auto;
   display: block;
   object-fit: contain;
 }
+
