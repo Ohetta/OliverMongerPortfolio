@@ -62,7 +62,7 @@ body {
 /* VERTICAL LINES */
 .overlay-line.v-line {
   position: absolute;
-  top: 30px;
+  top: 20px;
   width: 3px;          /* line thickness */
   height: 20px;        /* line height */
   background: #111;
