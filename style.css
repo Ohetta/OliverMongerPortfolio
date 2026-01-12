@@ -49,12 +49,6 @@ body {
 }
 
 /* NAV */
-.nav {
-  display: flex;
-  gap: 20px;
-  font-size: 12px;
-}
-
 .overlay .nav {
   position: absolute;
   top: 50px;     /* move nav vertically */
