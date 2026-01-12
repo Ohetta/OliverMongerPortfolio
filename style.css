@@ -45,8 +45,7 @@ body {
   width: 1000px;           /* CHANGE THIS */
   height: 60px;          /* CHANGE THIS */
 
-  background: rgba(253,253,249,0.95);
-  border: 2px solid red;  /* DEBUG — REMOVE LATER */
+  background: #fdfdf9;
   z-index: 10;
 
   display: flex;
