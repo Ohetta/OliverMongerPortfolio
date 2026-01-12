@@ -44,17 +44,21 @@ body {
   left: 750px;             /* CHANGE THIS */
   width: 1000px;           /* CHANGE THIS */
   height: 60px;          /* CHANGE THIS */
-
   background: #fdfdf9;
   z-index: 10;
-
-  display: flex;
-  align-items: center;
-  justify-content: left;
 }
 
 /* NAV */
 .nav {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+}
+
+.overlay .nav {
+  position: absolute;
+  top: 50px;     /* move nav vertically */
+  left: 100px;    /* move nav horizontally */
   display: flex;
   gap: 20px;
   font-size: 12px;
