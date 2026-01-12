@@ -56,7 +56,7 @@ body {
   width: 750px;
   height: 3px;
   background: #111;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 /* VERTICAL LINES */
@@ -66,7 +66,7 @@ body {
   width: 3px;          /* line thickness */
   height: 40px;        /* line height */
   background: #111;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 /* Individual vertical line positions */
@@ -77,8 +77,8 @@ body {
 /* NAV INSIDE OVERLAY */
 .overlay .nav {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 25px;
+  left: 25px;
   display: flex;
   gap: 40px;
   font-size: 12px;
