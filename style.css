@@ -52,9 +52,9 @@ body {
 .overlay {
   position: absolute;
   top: 50px;          /* moves down */
-  left: 50px;         /* moves right */
+  left: 100px;         /* moves right */
   width: 300px;       /* wider rectangle */
-  height: 120px;      /* taller rectangle */
+  height: 60px;      /* taller rectangle */
   background-color: #fdfdf9;
   z-index: 2;         /* THIS IS THE KEY */
   display: flex;
