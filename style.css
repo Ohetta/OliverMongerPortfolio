@@ -71,7 +71,7 @@ body {
   top: 25px;     /* move nav vertically */
   left: 25px;    /* move nav horizontally */
   display: flex;
-  gap: 20px;
+  gap: 40px;
   font-size: 12px;
 }
 
