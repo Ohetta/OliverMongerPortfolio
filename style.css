@@ -40,9 +40,9 @@ body {
 /* OVERLAY RECTANGLE */
 .overlay {
   position: absolute;
-  top: 200px;              /* CHANGE THIS */
-  left: 400px;             /* CHANGE THIS */
-  width: 500px;           /* CHANGE THIS */
+  top: 100px;              /* CHANGE THIS */
+  left: 1000px;             /* CHANGE THIS */
+  width: 1000px;           /* CHANGE THIS */
   height: 60px;          /* CHANGE THIS */
 
   background: rgba(253,253,249,0.95);
