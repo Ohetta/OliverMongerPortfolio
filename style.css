@@ -48,6 +48,23 @@ body {
   z-index: 10;
 }
 
+/* OVERLAY LINE */
+.overlay-line {
+  position: absolute;
+
+  /* POSITION */
+  top: 10px;      /* move up/down */
+  left: 20px;     /* move left/right */
+
+  /* SIZE */
+  width: 200px;   /* line length */
+  height: 3px;    /* line thickness */
+
+  /* STYLE */
+  background: #111;     /* line colour */
+  opacity: 0.6;         /* optional */
+}
+
 /* NAV */
 .overlay .nav {
   position: absolute;
