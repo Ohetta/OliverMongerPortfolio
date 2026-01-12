@@ -72,7 +72,7 @@ body {
 /* Individual vertical line positions */
 .overlay-line.v1 { left: 10px; }
 .overlay-line.v2 { left: 80px; }
-.overlay-line.v3 { left: 300px; }
+.overlay-line.v3 { left: 150px; }
 
 /* NAV INSIDE OVERLAY */
 .overlay .nav {
