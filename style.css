@@ -51,7 +51,7 @@ body {
 /* NAV */
 .overlay .nav {
   position: absolute;
-  top: center;     /* move nav vertically */
+  top: 25px;     /* move nav vertically */
   left: 25px;    /* move nav horizontally */
   display: flex;
   gap: 20px;
