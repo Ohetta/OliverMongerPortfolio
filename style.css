@@ -16,7 +16,7 @@ body {
 .cover {
   position: fixed;
   inset: 0;
-  padding: 40px;
+  padding: 10px;
   background: #fdfdf9;
 }
 
@@ -41,8 +41,8 @@ body {
 .overlay {
   position: absolute;
   top: 200px;              /* CHANGE THIS */
-  left: 200px;             /* CHANGE THIS */
-  width: 1000px;           /* CHANGE THIS */
+  left: 400px;             /* CHANGE THIS */
+  width: 500px;           /* CHANGE THIS */
   height: 60px;          /* CHANGE THIS */
 
   background: rgba(253,253,249,0.95);
