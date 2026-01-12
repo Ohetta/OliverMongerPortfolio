@@ -64,13 +64,13 @@ body {
   position: absolute;
   top: 10px;
   width: 3px;          /* line thickness */
-  height: 40px;        /* line height */
+  height: 20px;        /* line height */
   background: #111;
   opacity: 1;
 }
 
 /* Individual vertical line positions */
-.overlay-line.v1 { left: 100px; }
+.overlay-line.v1 { left: 10px; }
 .overlay-line.v2 { left: 200px; }
 .overlay-line.v3 { left: 300px; }
 
