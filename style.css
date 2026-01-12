@@ -78,7 +78,7 @@ body {
 .overlay .nav {
   position: absolute;
   top: 25px;
-  left: 25px;
+  left: 20px;
   display: flex;
   gap: 40px;
   font-size: 12px;
