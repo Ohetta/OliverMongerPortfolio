@@ -40,8 +40,8 @@ body {
 /* OVERLAY RECTANGLE */
 .overlay {
   position: absolute;
-  top: 50px;              /* CHANGE THIS */
-  left: 900px;             /* CHANGE THIS */
+  top: 40px;              /* CHANGE THIS */
+  left: 750px;             /* CHANGE THIS */
   width: 1000px;           /* CHANGE THIS */
   height: 60px;          /* CHANGE THIS */
 
@@ -50,7 +50,7 @@ body {
   z-index: 10;
 
   display: flex;
-  align-items: left;
+  align-items: center;
   justify-content: left;
 }
 
