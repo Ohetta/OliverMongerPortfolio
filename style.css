@@ -42,8 +42,8 @@ body {
 .overlay {
   position: absolute;        /* floats on top of hero image */
   top: 50px;                 /* adjust vertical position */
-  left: 100px;                /* adjust horizontal position */
-  width: 300px;              /* rectangle width */
+  left: 300px;                /* adjust horizontal position */
+  width: 600px;              /* rectangle width */
   height: 60px;             /* rectangle height */
   background-color: #fdfdf9; /* same as page background */
   display: flex;
