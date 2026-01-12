@@ -41,7 +41,7 @@ body {
 .overlay {
   position: absolute;
   top: 50px;              /* CHANGE THIS */
-  left: 1000px;             /* CHANGE THIS */
+  left: 900px;             /* CHANGE THIS */
   width: 1000px;           /* CHANGE THIS */
   height: 60px;          /* CHANGE THIS */
 
@@ -51,7 +51,7 @@ body {
 
   display: flex;
   align-items: left;
-  justify-content: center;
+  justify-content: left;
 }
 
 /* NAV */
