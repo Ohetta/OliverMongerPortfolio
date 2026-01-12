@@ -42,7 +42,7 @@ body {
   position: absolute;
   top: 200px;              /* CHANGE THIS */
   left: 200px;             /* CHANGE THIS */
-  width: 320px;           /* CHANGE THIS */
+  width: 1000px;           /* CHANGE THIS */
   height: 60px;          /* CHANGE THIS */
 
   background: rgba(253,253,249,0.95);
