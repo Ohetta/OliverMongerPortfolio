@@ -53,8 +53,8 @@ body {
   position: absolute;
 
   /* POSITION */
-  top: 40px;      /* move up/down */
-  left: 20px;     /* move left/right */
+  top: 45px;      /* move up/down */
+  left: 10px;     /* move left/right */
 
   /* SIZE */
   width: 750px;   /* line length */
