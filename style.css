@@ -98,6 +98,10 @@ body {
   gap: 40px;
 }
 
+.overlay-icons a {
+  display: block;
+}
+
 .overlay-icons img {
   display: block;
   width: 14px;
