@@ -92,8 +92,8 @@ body {
 /* ICON CONTAINER */
 .overlay-icons {
   position: absolute;
-  top: 18px;        /* vertical alignment inside rectangle */
-  right: 20px;      /* pins icons to end of rectangle */
+  top: 18px;    /* move up/down */
+  left: 40px;  /* move left/right */
   display: flex;
   gap: 16px;
 }
@@ -111,7 +111,7 @@ body {
   height: 100%;
   fill: none;
   stroke: #111;
-  stroke-width: 1.4;
+  stroke-width: 3;
   opacity: 0.7;
 }
 
