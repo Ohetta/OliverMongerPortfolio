@@ -90,34 +90,10 @@ body {
 }
 
 /* ICON CONTAINER */
-.overlay-icons {
-  position: absolute;
-  top: 18px;    /* move up/down */
-  left: 40px;  /* move left/right */
-  display: flex;
-  gap: 16px;
-}
-
-/* ICON LINKS */
-.overlay-icons a {
+.overlay-icons img {
   width: 14px;
   height: 14px;
-  display: inline-flex;
-}
-
-/* SVG ICONS */
-.overlay-icons svg {
-  width: 100%;
-  height: 100%;
-  fill: none;
-  stroke: #111;
-  stroke-width: 3;
-  opacity: 0.7;
-}
-
-/* OPTIONAL HOVER */
-.overlay-icons a:hover svg {
-  opacity: 1;
+  display: block;
 }
 
 /* Copyright */
