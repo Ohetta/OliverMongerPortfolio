@@ -90,11 +90,20 @@ body {
 }
 
 /* ICON CONTAINER */
+.overlay-icons {
+  position: absolute;
+  top: 18px;
+  left: 600px;
+  display: flex;
+  gap: 20px;
+}
+
 .overlay-icons img {
+  display: block;
   width: 14px;
   height: 14px;
-  display: block;
 }
+
 
 /* Copyright */
 .overlay-text {
