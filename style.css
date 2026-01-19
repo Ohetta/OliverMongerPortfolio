@@ -92,7 +92,7 @@ body {
 /* Copyright */
 .overlay-text {
   position: absolute;
-  top: 3000px;     /* move freely */
+  top: 30px;     /* move freely */
   left: 1000px;   /* move freely */
   font-size: 11px;
   color: #FF0000;
