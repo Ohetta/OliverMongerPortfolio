@@ -109,8 +109,6 @@ body {
   height: 14px;
 }
 
-
-
 /* Copyright */
 .overlay-text {
   position: absolute;   /* independent positioning */
@@ -120,6 +118,6 @@ body {
   color: #FF0000;
   opacity: 0.6;
   white-space: nowrap;   /* prevent wrapping */
-  z-index: 20;           /* keep above hero image */
+  z-index: 50;           /* keep above hero image */
 }
 
