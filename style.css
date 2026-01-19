@@ -113,11 +113,13 @@ body {
 
 /* Copyright */
 .overlay-text {
-  position: absolute;
-  top: 720px;     /* move freely */
-  left: 1300px;   /* move freely */
+  position: absolute;   /* independent positioning */
+  bottom: 720px;         /* distance from bottom of rectangle */
+  left: 1300px;           /* distance from left of rectangle */
   font-size: 11px;
   color: #FF0000;
-  opacity: 0.7;
+  opacity: 0.6;
+  white-space: nowrap;   /* prevent wrapping */
+  z-index: 20;           /* keep above hero image */
 }
 
