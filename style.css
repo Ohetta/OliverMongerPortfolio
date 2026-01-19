@@ -17,7 +17,6 @@ body {
   position: fixed;
   inset: 0;
   padding: 10px;
-  background: #fdfdf9;
 }
 
 /* HERO CONTAINER */
@@ -28,7 +27,7 @@ body {
   overflow: hidden;
 }
 
-/* IMAGE */
+/* HERO IMAGE */
 .hero img {
   position: absolute;
   inset: 0;
@@ -40,10 +39,10 @@ body {
 /* OVERLAY RECTANGLE */
 .overlay {
   position: absolute;
-  top: 40px;              /* move rectangle vertically */
-  left: 750px;            /* move rectangle horizontally */
-  width: 1000px;          /* rectangle width */
-  height: 60px;           /* rectangle height */
+  top: 40px;         /* move rectangle vertically */
+  left: 750px;       /* move rectangle horizontally */
+  width: 1000px;     /* rectangle width */
+  height: 60px;      /* rectangle height */
   background: #fdfdf9;
   z-index: 10;
 }
@@ -63,8 +62,8 @@ body {
 .overlay-line.v-line {
   position: absolute;
   top: 25px;
-  width: 3px;          /* line thickness */
-  height: 20px;        /* line height */
+  width: 3px;       
+  height: 20px;     
   background: #111;
   opacity: 1;
 }
@@ -89,11 +88,11 @@ body {
   color: #111;
 }
 
-/* ICON CONTAINER */
+/* ICON CONTAINER INSIDE OVERLAY */
 .overlay-icons {
   position: absolute;
-  top: 18px;
-  left: 600px;
+  top: 18px;     
+  left: 600px;  
   display: flex;
   gap: 40px;
 }
@@ -109,15 +108,14 @@ body {
   height: 14px;
 }
 
-/* Copyright */
+/* COPYRIGHT TEXT (FREELY FLOATING ON PAGE) */
 .overlay-text {
-  position: absolute;   /* independent positioning */
-  bottom: 720px;         /* distance from bottom of rectangle */
-  left: 1300px;           /* distance from left of rectangle */
+  position: absolute;   /* free positioning over page */
+  top: 20px;            /* adjust anywhere */
+  left: 40px;           /* adjust anywhere */
   font-size: 11px;
-  color: #FF0000;
+  color: #111;
   opacity: 0.6;
-  white-space: nowrap;   /* prevent wrapping */
-  z-index: 50;           /* keep above hero image */
+  white-space: nowrap;
+  z-index: 50;          /* above everything */
 }
-
