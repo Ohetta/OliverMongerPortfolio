@@ -103,10 +103,12 @@ body {
 }
 
 .overlay-icons img {
+  position: static;
   display: block;
   width: 14px;
   height: 14px;
 }
+
 
 
 /* Copyright */
