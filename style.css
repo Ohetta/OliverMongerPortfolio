@@ -92,8 +92,8 @@ body {
 /* Copyright */
 .overlay-text {
   position: absolute;
-  top: 1000px;     /* move freely */
-  left: 800px;   /* move freely */
+  top: 3000px;     /* move freely */
+  left: 1000px;   /* move freely */
   font-size: 11px;
   color: #FF0000;
   opacity: 0.7;
